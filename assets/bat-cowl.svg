@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 380" width="300" height="380" role="img" aria-label="THE COWL: animated Batman illustration">
+<style>
+  .rain line{stroke:#cfc6e6;stroke-width:1;animation:rain 1s linear infinite}
+  @keyframes rain{to{transform:translate(-60px,420px)}}
+  .flash{fill:#fff;opacity:0;animation:flash 7s linear infinite}
+  @keyframes flash{0%,62%,68%,100%{opacity:0}63%{opacity:.55}64%{opacity:.05}65.5%{opacity:.35}}
+  .cap{font:700 12px ui-monospace,SFMono-Regular,Consolas,Menlo,monospace;letter-spacing:3px;fill:#f5c518}
+  .num{font:11px ui-monospace,SFMono-Regular,Consolas,Menlo,monospace;fill:#6f6884;letter-spacing:1px}
+  .flap{animation:flap .22s ease-in-out infinite alternate}
+  @keyframes flap{from{transform:scaleY(1)}to{transform:scaleY(.35)}}
+  .eyes{transform-box:fill-box;transform-origin:50% 50%;animation:blink 4.5s infinite}
+  @keyframes blink{0%,90%,96%,100%{transform:scaleY(1)}93%{transform:scaleY(.08)}}
+  .glow{animation:glow 5s ease-in-out infinite alternate}
+  @keyframes glow{from{opacity:.85}to{opacity:1}}
+  .drift{animation:drift 14s linear infinite alternate}
+  @keyframes drift{from{transform:translateX(-20px)}to{transform:translateX(24px)}}
+  @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<defs>
+  <clipPath id="c"><rect width="300" height="380" rx="18"/></clipPath>
+  <radialGradient id="moon"><stop offset="0" stop-color="#fff7d6"/><stop offset=".62" stop-color="#f6db7a"/><stop offset=".8" stop-color="#d9ad16" stop-opacity=".9"/><stop offset="1" stop-color="#d9ad16" stop-opacity="0"/></radialGradient>
+  <path id="bat" d="M0-6c-1.6 0-2.3-1.6-2.7-3.4l-1.2 3.3c-3.8-.4-7-2.8-8.6-6.1-2.7 5.3-9 6.5-14.5 5.4 4.2 3.2 6.3 7.4 6.3 11.6 3.2-2 6.9-2 9.7.6 1.6-3.2 5.3-3.7 7.4-.6 1.2 2.2 2.4 5.3 3.6 8.4 1.2-3.1 2.4-6.2 3.6-8.4 2.1-3.1 5.8-2.6 7.4.6 2.8-2.6 6.5-2.6 9.7-.6 0-4.2 2.1-8.4 6.3-11.6-5.5 1.1-11.8-.1-14.5-5.4-1.6 3.3-4.8 5.7-8.6 6.1l-1.2-3.3C2.3-7.6 1.6-6 0-6z"/>
+  <path id="cape" d="M141 174L137 138 145 154H155L163 138 159 174Q161 178 168 180Q222 172 266 196Q252 222 250 252 236 238 220 240 214 262 214 286 198 270 182 274 168 290 150 312 132 290 118 274 102 270 86 286 86 262 80 240 64 238 50 252 48 222 34 196Q78 172 132 180Q139 178 141 174Z"/>
+  <linearGradient id="s1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0a0812"/><stop offset="1" stop-color="#1c1430"/></linearGradient>
+</defs>
+<g clip-path="url(#c)">
+<rect width="300" height="380" fill="url(#s1)"/>
+  <circle cx="150" cy="150" r="118" fill="url(#moon)" class="glow"/>
+  <g class="drift" fill="#140f22" opacity=".55"><ellipse cx="90" cy="120" rx="90" ry="9"/><ellipse cx="230" cy="176" rx="80" ry="7"/></g>
+  <g fill="#050408">
+    <path d="M114 120L121 60 136 100Q150 96 164 100L179 60 186 120Q190 140 188 162 186 186 172 200L150 214 128 200Q114 186 112 162 110 140 114 120Z"/>
+    <path d="M126 198Q150 222 174 198L214 218Q250 232 262 270L276 380H24L38 270Q50 232 86 218Z"/>
+  </g>
+  <use href="#bat" fill="#1d1729" transform="translate(150 286) scale(1.7)"/>
+  <g class="eyes" fill="#fbf6e6"><path d="M127 151L142 146 144 153 130 156Z"/><path d="M173 151L158 146 156 153 170 156Z"/></g>
+  <g class="rain" style="opacity:0.18"><line style="animation-delay:-0.4s;animation-duration:0.7s" x1="0" y1="-33.4" x2="-4" y2="-19.4"/><line style="animation-delay:-0.6s;animation-duration:0.9s" x1="327" y1="-32.3" x2="323" y2="-18.3"/><line style="animation-delay:-0.3s;animation-duration:1.1s" x1="179.5" y1="-28.4" x2="175.5" y2="-14.4"/><line style="animation-delay:-0.7s;animation-duration:1.1s" x1="53.4" y1="-31.4" x2="49.4" y2="-17.4"/><line style="animation-delay:-0.3s;animation-duration:1.1s" x1="145.4" y1="-22.5" x2="141.4" y2="-8.5"/><line style="animation-delay:-0.6s;animation-duration:0.8s" x1="225.1" y1="-36.6" x2="221.1" y2="-22.6"/><line style="animation-delay:-0s;animation-duration:0.8s" x1="117" y1="-43.9" x2="113" y2="-29.9"/><line style="animation-delay:-0s;animation-duration:0.9s" x1="218.9" y1="-41.4" x2="214.9" y2="-27.4"/><line style="animation-delay:-0.1s;animation-duration:1s" x1="337.1" y1="-35.7" x2="333.1" y2="-21.7"/><line style="animation-delay:-1.1s;animation-duration:0.7s" x1="364.4" y1="-29.6" x2="360.4" y2="-15.6"/><line style="animation-delay:-1.1s;animation-duration:0.8s" x1="272.6" y1="-44.2" x2="268.6" y2="-30.2"/><line style="animation-delay:-1.1s;animation-duration:1.1s" x1="63.3" y1="-44" x2="59.3" y2="-30"/><line style="animation-delay:-0.5s;animation-duration:0.8s" x1="379.9" y1="-44" x2="375.9" y2="-30"/><line style="animation-delay:-1.1s;animation-duration:1.1s" x1="233.9" y1="-20.7" x2="229.9" y2="-6.7"/><line style="animation-delay:-0s;animation-duration:1s" x1="133.6" y1="-46.2" x2="129.6" y2="-32.2"/><line style="animation-delay:-0.8s;animation-duration:1s" x1="361.4" y1="-36.5" x2="357.4" y2="-22.5"/><line style="animation-delay:-1.1s;animation-duration:1.2s" x1="324.2" y1="-33" x2="320.2" y2="-19"/><line style="animation-delay:-0.6s;animation-duration:0.8s" x1="161.7" y1="-44.3" x2="157.7" y2="-30.3"/><line style="animation-delay:-1s;animation-duration:0.8s" x1="18.2" y1="-21.6" x2="14.2" y2="-7.6"/><line style="animation-delay:-0.5s;animation-duration:0.9s" x1="133.3" y1="-36.5" x2="129.3" y2="-22.5"/><line style="animation-delay:-0.2s;animation-duration:1s" x1="40.3" y1="-31.4" x2="36.3" y2="-17.4"/><line style="animation-delay:-0.1s;animation-duration:1.2s" x1="209.3" y1="-47.7" x2="205.3" y2="-33.7"/><line style="animation-delay:-0.7s;animation-duration:0.9s" x1="377.7" y1="-43.2" x2="373.7" y2="-29.2"/><line style="animation-delay:-0.6s;animation-duration:0.9s" x1="327.2" y1="-39.4" x2="323.2" y2="-25.4"/><line style="animation-delay:-1.2s;animation-duration:1s" x1="202.5" y1="-27.7" x2="198.5" y2="-13.7"/><line style="animation-delay:-0.2s;animation-duration:1.2s" x1="345.9" y1="-24.4" x2="341.9" y2="-10.4"/><line style="animation-delay:-1s;animation-duration:0.9s" x1="262.5" y1="-28.6" x2="258.5" y2="-14.6"/><line style="animation-delay:-0.6s;animation-duration:0.8s" x1="334" y1="-34.5" x2="330" y2="-20.5"/><line style="animation-delay:-1s;animation-duration:0.8s" x1="38.2" y1="-43.9" x2="34.2" y2="-29.9"/><line style="animation-delay:-1s;animation-duration:0.9s" x1="287.8" y1="-30.2" x2="283.8" y2="-16.2"/><line style="animation-delay:-0s;animation-duration:1s" x1="0.3" y1="-20.6" x2="-3.7" y2="-6.6"/><line style="animation-delay:-0.4s;animation-duration:1s" x1="112.3" y1="-44.2" x2="108.3" y2="-30.2"/><line style="animation-delay:-0.9s;animation-duration:0.8s" x1="376.1" y1="-34.8" x2="372.1" y2="-20.8"/><line style="animation-delay:-0.3s;animation-duration:0.8s" x1="248.4" y1="-34.8" x2="244.4" y2="-20.8"/></g>
+  <rect class="flash" width="300" height="380"/>
+  <rect y="334" width="300" height="46" fill="#0b0a10" opacity=".9"/>
+  <text class="cap" x="20" y="362">THE COWL</text>
+  <text class="num" x="280" y="362" text-anchor="end">01</text>
+</g>
+<rect x=".5" y=".5" width="299" height="379" rx="18" fill="none" stroke="#f5c518" stroke-opacity=".28"/>
+</svg>

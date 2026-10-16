@@ -18,6 +18,15 @@
 - I build where systems meet: REST APIs, data pipelines, and AI tools that answer questions from your documents
 - Currently on patrol for: software engineering roles and interesting integration problems
 
+### 🌙 From the Batcave
+
+<p align="center">
+  <img src="assets/bat-cowl.svg" alt="The Cowl: Batman's masked silhouette against the moon, eyes blinking" width="24%">
+  <img src="assets/bat-rooftop.svg" alt="The Watch: Batman on a rooftop ledge with his cape spread in the wind" width="24%">
+  <img src="assets/bat-grapple.svg" alt="The Swing: Batman swinging on a grapple line across the moon" width="24%">
+  <img src="assets/bat-swarm.svg" alt="The Swarm: bats bursting out of a cave toward the viewer" width="24%">
+</p>
+
 ### 🛠️ Utility belt
 
 <p>
